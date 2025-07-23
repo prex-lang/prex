@@ -1,0 +1,28 @@
+defun main() > i32 {
+    i32 a;
+    i32 b;
+    str op;
+    printf("type a: ");
+    scanf("%d", &a);
+    printf("type b: ");
+    scanf("%d", &b);
+    printf("+ - * / :");
+    scanf("%s", op);
+
+    if(op == "+"){
+        printf("%d + %d = %d\n",a,b,a+b);
+    }
+    else if(op == "-"){
+        printf("%d - %d = %d\n",a,b,a-b);
+    }
+    else if(op == "*"){
+        printf("%d * %d = %d\n",a,b,a*b);
+    }
+    else if(op == "/"){
+        printf("%d / %d = %d\n",a,b,a/b);
+    }else {
+        printf("idiot\n");
+        printf("you typed %s\n", op);
+    }
+    ret 0;
+}
