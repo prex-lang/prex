@@ -121,5 +121,5 @@ Coming soon! Planned sections:
 
 ## 📝 License
 
-MIT
+Apache 2.0
 
