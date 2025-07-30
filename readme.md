@@ -4,6 +4,8 @@
 
 > Inspired by the elegance of Rust/C constructs and the simplicity of Go.
 
+join our [discord](https://discord.gg/6nvBRGsyVm)!
+
 ---
 
 ## ✨ Features
